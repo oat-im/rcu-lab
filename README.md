@@ -152,27 +152,22 @@ If you can write a low-latency allocator, port to Rust or analyze grace periods 
 
 ## Citation
 
+```
 @software{rcu-lab,
   title = {RCU-Lab: A NUMA-aware microbenchmark suite for real-world RCU analysis},
   author = {Eric Christian},
   year = {2025},
   url = {https://github.com/oat-im/rcu-lab}
 }
+```
 
-
----
-
-🪪 License
+## License
 
 MIT - because good tooling should be free and fast.
 
----
-
-🙏 Acknowledgments
+## Acknowledgments
  - liburcu - production-grade RCU for userspace
  - Paul McKenney - RCU godfather
  - All the engineers who don't accept lock contention as "inevitable"
-
----
 
 "Stop benchmarking like a CS student. Start benchmarking like a kernel engineer."
