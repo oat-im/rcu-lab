@@ -19,15 +19,15 @@ It's built for people who care about:
 - Lock-free data structures
 - Multisocket memory bottlenecks
 
-## 🔧 Features
+## Features
 
-### 🔍 Precision Measurement
+### Precision Measurement
 - Per-core read latency tracking in **nanoseconds**
 - **CPU pinning** to avoid scheduler randomness
 - NUMA-aware memory allocation per-core
 - `alignas(128)` to kill false sharing dead
 
-### 💣 Real Contention Scenarios
+### Real Contention Scenarios
 - Writers updating at **1K → 100K ops/sec**
 - NUMA-aware writer partitioning
 - Readers focused on **local or remote slots**
